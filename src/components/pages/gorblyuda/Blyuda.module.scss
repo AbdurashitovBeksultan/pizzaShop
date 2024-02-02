@@ -1,0 +1,39 @@
+
+
+.Slider {
+  .content {
+    .card {
+      margin-top: 20px;
+      width: 80%;
+      height: 450px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+       border: 2px solid red;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+
+      .img {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+      }
+    }
+    .card:hover {
+      margin-top: 20px;
+      width: 80%;
+      height: 450px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      border: 2px solid red;
+      border-radius: 10px;
+      padding: 20px;
+      background:white;
+    }
+  }
+}
+

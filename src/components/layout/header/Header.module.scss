@@ -1,0 +1,28 @@
+.Header {
+	.content {
+		.logo {
+		}
+		nav {
+			ul {
+				li {
+					.link {
+                        display:flex;
+						gap:10px;
+						background-color:white;
+							border: 2px solid blue;
+	                        border-radius: 10px;
+							width:100px;
+						&.active {
+							color: green;
+						}
+						.menyi{
+							background-color: green;
+							color:red;
+						
+						}
+					}
+				}
+			}
+		}
+	}
+}

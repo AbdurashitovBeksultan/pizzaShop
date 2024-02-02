@@ -1,0 +1,42 @@
+.anotherModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 28%;
+  height: 40%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 700px;
+	margin-top: 250px;
+}
+
+.anotherModalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+}

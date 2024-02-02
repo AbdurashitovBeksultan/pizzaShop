@@ -1,0 +1,112 @@
+body{
+  background:yellow
+}
+
+
+
+.Slider {
+  .content {
+    .card {
+      margin-top: 20px;
+      width: 80%;
+      height: 450px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+       border: 2px solid red;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      cursor:pointer;
+
+      .img {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        cursor:pointer;
+      }
+    }
+    .card:hover {
+      margin-top: 20px;
+      width: 80%;
+      height: 450px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      border: 2px solid red;
+      border-radius: 10px;
+      padding: 20px;
+      background:white;
+      cursor:pointer;
+    }
+  }
+}
+
+
+
+
+
+.Slider {
+  width: 100%;
+  padding: 40px 0;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .content {
+      position: relative;
+
+      .keen-slider {
+        display: flex;
+      }
+
+      .keen-slider__slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        h3 {
+          margin-top: 20px;
+          font-size: 1.5em;
+        }
+
+        p {
+          margin-top: 10px;
+          font-size: 1em;
+          color: #555;
+        }
+
+        &.number-slide1 {
+          background-color: #f9f9f9; // Добавьте свой цвет фона по необходимости
+        }
+
+        // Добавьте другие стили для каждого .keen-slider__slide по необходимости
+      }
+    }
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+}
+
+
+
+
+
+
+
+
+
